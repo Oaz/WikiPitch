@@ -132,7 +132,7 @@
         id="description"
         bind:value={description}
         disabled={loading}
-      />
+      ></textarea>
     </div>
 
     <div class="camera-section">
@@ -142,8 +142,10 @@
           bind:this={videoElement}
           autoplay
           playsinline
-        />
-        <canvas bind:this={canvasElement} style="display: none;" />
+        >
+          <track kind="captions" label="Captions" src="" default />
+        </video>
+        <canvas bind:this={canvasElement} style="display: none;" ></canvas>
         <button
           type="button"
           on:click={startCamera}
