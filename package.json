@@ -1,0 +1,24 @@
+{
+  "name": "WikiPitch",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "cd frontend && vite",
+    "preview": "cd frontend && vite preview",
+    "check": "svelte-check --tsconfig frontend/tsconfig.json",
+    "build:frontend": "cd frontend && vite build",
+    "build:backend": "mkdir -p output && cp -r backend output/ && cp -r shared output/backend/",
+    "build": "npm run build:frontend && npm run build:backend"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.1.0",
+    "@tsconfig/svelte": "^5.0.4",
+    "svelte": "^5.33.14",
+    "svelte-check": "^4.2.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+  }
+}
