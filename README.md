@@ -3,7 +3,7 @@ Et si on utilisait un wiki pour pitcher les sessions d'un forum ouvert ?
 
 ## Le contexte
 
-Un forum ouvert de grande taille (~200 personnes, ~80 sessions dans la journée).
+Un forum ouvert de grande taille (~200 personnes, ~80 sessions).
 Si tout le monde fait le pitch de sa session, on perd 1 heure.
 
 Pour simplifier les pitchs, on utilise :
